@@ -12,7 +12,7 @@ const gravity = 9.81; //* number - earth gravity
 const boilingPoint = 100; //* number - water boiling point
 
 //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^/
-//^ Değişkenler 1 satırda virgül ile ayrılmış şekilde tanımalanabilirler..
+//^ Değişkenler bir satırda virgül ile ayrılmış şekilde tanımalanabilirler..
 
 let name = "Cumali Kavaklı",
   job = "Teacher",
