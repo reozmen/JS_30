@@ -34,7 +34,7 @@ let lightOff = false;
 console.log(lightOn == lightOff); //* false
 console.log(lightOn === lightOff); //* false
 
-//? === veri türünü de kontrol eder.
+//? === veri türünü de kontrol eder
 
 let num1 = 10;
 let num2 = "10";
