@@ -1,7 +1,9 @@
+//^-------------------------------------------------------//
 //^ 1. İlkel Veri Tipleri (Primitive Data Types)
 //* PRIMITVE DATA TYPES
 
 //? primitive veri türleri değiştirilemez (immutable) veri türleridir.
+//^-------------------------------------------------------//
 
 let firstName = "Ahmet";
 console.log(firstName); //* Ahmet
@@ -43,7 +45,9 @@ let num2 = "10";
 console.log(num1 == num2); //* true
 console.log(num1 === num2); //* false (veri türü farklı olduğu için)
 
+//^-------------------------------------------------------//
 //^ 2. İlkel Olmayan Veri Tipleri (Non-Primitive Data Types)
+//^-------------------------------------------------------//
 
 //* İlkel olmayan veri türleri değiştirilebilir (mutable) veri türleridir.
 console.log("*************************************************");
