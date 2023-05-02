@@ -116,3 +116,11 @@ let lastIndex = string.length - 1;
 
 console.log(lastIndex); //* 9
 console.log(string[lastIndex]); //* t
+
+//~ toUpperCase() - toLowerCase()
+
+let stringOne = "JavaScript";
+console.log(stringOne.toUpperCase()); //* JAVASCRIPT
+
+let stringTwo = "JavaScript";
+console.log(stringTwo.toLowerCase()); //* javascript
