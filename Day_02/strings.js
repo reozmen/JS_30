@@ -90,4 +90,10 @@ console.log(`${a} is greater than ${b}: ${a > b}`);
 //^---------------------------------------//
 //^^ STRING METHODS //
 //^---------------------------------------//
-.
+
+//~ length
+
+let jss = "JavaScript";
+console.log(jss.length); // 10
+let namess = "Asabeneh";
+console.log(namess.length); // 8
