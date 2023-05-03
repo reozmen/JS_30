@@ -34,3 +34,11 @@ console.log(challenge.toLowerCase());
 //^^ Cut (slice) out the first word of the string using substr() or substring() method
 //^^ substr () veya substring () yöntemini kullanarak dizenin ilk kelimesini kesin (dilimleyin)
 console.log(challenge.substring(0, 2));
+
+//? Exercise 7:
+//^^ Slice out the phrase Days Of JavaScript from 30 Days Of JavaScript.
+//^^ 30 Days Of JavaScript'ten Days Of JavaScript ifadesini kesin.
+
+console.log(challenge.substring(3)); //*Days Of JavaScript
+console.log(challenge.substr(3)); //*Days Of JavaScript
+console.log(challenge.slice(3)); //*Days Of JavaScript
