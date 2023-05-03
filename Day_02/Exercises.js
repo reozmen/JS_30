@@ -23,3 +23,9 @@ console.log(challenge.length);
 //^^ toUpperCase () yöntemini kullanarak tüm dize karakterlerini büyük harfe dönüştürün
 
 console.log(challenge.toUpperCase());
+
+//? Exercise 5:
+//^^ Change all the string characters to lowercase letters using toLowerCase() method
+//^^ toLowerCase () yöntemini kullanarak tüm dize karakterlerini küçük harfe dönüştürün
+
+console.log(challenge.toLowerCase());
