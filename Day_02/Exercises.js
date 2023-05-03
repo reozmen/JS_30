@@ -29,3 +29,8 @@ console.log(challenge.toUpperCase());
 //^^ toLowerCase () yöntemini kullanarak tüm dize karakterlerini küçük harfe dönüştürün
 
 console.log(challenge.toLowerCase());
+
+//? Exercise 6:
+//^^ Cut (slice) out the first word of the string using substr() or substring() method
+//^^ substr () veya substring () yöntemini kullanarak dizenin ilk kelimesini kesin (dilimleyin)
+console.log(challenge.substring(0, 2));
