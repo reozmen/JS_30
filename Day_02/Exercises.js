@@ -54,3 +54,16 @@ console.log(challenge.includes("Script")); //*true
 //^^ split () yöntemini kullanarak string i bir array a ayırın
 
 console.log(challenge.split()); //*["30 Days Of JavaScript"]
+
+//? Exercise 10:
+//^^ Split the string 30 Days Of JavaScript at the space using split() method
+//^^ split () yöntemini kullanarak dizeyi boşluk lar ile 30 Gün JavaScript olarak ayırın
+
+console.log(challenge.split(" ")); //*["30", "Days", "Of", "JavaScript"]
+
+//? Exercise 11:
+//^^ 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
+//^^ Dizeyi virgülden ayırın ve bir diziye değiştirin.
+
+let companies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon";
+console.log(companies.split(",")); //*["Facebook", " Google", " Microsoft", " Apple", " IBM", " Oracle", " Amazon"]
