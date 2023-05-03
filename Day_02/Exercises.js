@@ -42,3 +42,15 @@ console.log(challenge.substring(0, 2));
 console.log(challenge.substring(3)); //*Days Of JavaScript
 console.log(challenge.substr(3)); //*Days Of JavaScript
 console.log(challenge.slice(3)); //*Days Of JavaScript
+
+//? Exercise 8:
+//^^ Check if the string contains a word Script using includes() method
+//^^ includes () yöntemini kullanarak dizenin Script kelimesini içerip içermediğini kontrol edin
+
+console.log(challenge.includes("Script")); //*true
+
+//? Exercise 9:
+//^^ Split the string into an array using split() method
+//^^ split () yöntemini kullanarak string i bir array a ayırın
+
+console.log(challenge.split()); //*["30 Days Of JavaScript"]
