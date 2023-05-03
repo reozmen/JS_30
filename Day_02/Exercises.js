@@ -67,3 +67,9 @@ console.log(challenge.split(" ")); //*["30", "Days", "Of", "JavaScript"]
 
 let companies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon";
 console.log(companies.split(",")); //*["Facebook", " Google", " Microsoft", " Apple", " IBM", " Oracle", " Amazon"]
+
+//? Exercise 12:
+//^^ Change 30 Days Of JavaScript to 30 Days Of Python using replace() method.
+//^^ replace () yöntemini kullanarak 30 Days Of JavaScript'i 30 Days Of Python olarak değiştirin.
+
+console.log(challenge.replace("JavaScript", "Python")); //*30 Days Of Python
