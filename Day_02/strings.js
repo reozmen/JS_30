@@ -91,14 +91,14 @@ console.log(`${a} is greater than ${b}: ${a > b}`);
 //^^ STRING METHODS //
 //^---------------------------------------//
 
-//~ length
+//^ length
 
 let jss = "JavaScript";
 console.log(jss.length); // 10
 let namess = "Asabeneh";
 console.log(namess.length); // 8
 
-//~ Accessing characters in a string by index
+//^ Accessing characters in a string by index
 //? Bir string in karakterlerine erişmek için, köşeli parantez içinde karakterin indeksini kullanırız. İndeks 0 dan başlar. İndeks 0, ilk karaktere, 1 ikinci karaktere, 2 üçüncü karaktere vb. Erişir.
 
 let string = "JavaScript";
@@ -117,10 +117,146 @@ let lastIndex = string.length - 1;
 console.log(lastIndex); //* 9
 console.log(string[lastIndex]); //* t
 
-//~ toUpperCase() - toLowerCase()
+//^ toUpperCase() - toLowerCase()
 
 let stringOne = "JavaScript";
 console.log(stringOne.toUpperCase()); //* JAVASCRIPT
 
 let stringTwo = "JavaScript";
 console.log(stringTwo.toLowerCase()); //* javascript
+
+//^ substr() : için başlangıç ​​dizini ve karakter sayısı olmak üzere iki bağımsız değişken gerekir.. substr deprecated oldu. yerine slice kullanılmalı.
+
+let stringThree = "JavaScript";
+console.log(stringThree.substr(4, 6)); //* Script
+
+let stringFour = "JavaScript";
+console.log(stringFour.substr(4, 4)); //* Scri
+
+//^ substring() : Başlangıç ​​dizini ve durdurma dizini olmak üzere iki bağımsız değişken alır, ancak durdurma dizinindeki karakteri içermez.
+
+let stringFive = "JavaScript";
+console.log(stringFive.substring(0, 4)); //* Java
+
+let stringSix = "JavaScript";
+console.log(stringSix.substring(4)); //* Script
+
+let stringEight = "JavaScript";
+console.log(stringEight.substring(4, -1)); //* Java ... - index kabul etmez ve 0 dan pozitif olan index e kadar alır.
+
+let stringNine = "JavaScript";
+console.log(stringNine.substring(-8, 11)); //* Java ..... - index kabul etmez ve 0 dan pozitif olan index e kadar alır.
+
+//^ slice() : Başlangıç ​​dizini ve durdurma dizini olmak üzere iki bağımsız değişken alır, ancak durdurma dizinindeki karakteri içerir.
+console.log("***************SLİCE***************");
+
+let stringSeven = "JavaScript";
+console.log(stringSeven.slice(0, 4)); //* Java
+console.log(stringSeven);
+console.log(stringSeven.slice(4, 10)); //* Script
+console.log(stringSeven.slice(4)); //* Script
+console.log(stringSeven.slice(0, -2)); //* JavaScri
+
+//^ split() : split yöntemi, belirtilen bir yerde bir dize böler.
+
+let stringTen = "30 Days Of JavaScript";
+
+console.log(stringTen.split()); //* Changes to an array -> ["30 Days Of JavaScript"]
+console.log(stringTen.split(" ")); //* Split to an array at space -> ["30", "Days", "Of", "JavaScript"]
+
+let countries = "Finland, Sweden, Norway, Denmark, and Iceland";
+
+console.log(countries.split(",")); //* split to any array at comma -> ["Finland", " Sweden", " Norway", " Denmark", " and Iceland"]
+console.log(countries.split(", ")); //*  ["Finland", "Sweden", "Norway", "Denmark", "and Iceland"]
+
+//^^ trim() : Bir dizenin başındaki veya sonundaki sondaki boşluğu kaldırır.
+let stringEleven = "   30 Days Of JavaScript   ";
+
+console.log(stringEleven);
+console.log(stringEleven.trim(" "));
+
+//^^ include() : Bir alt dize bağımsız değişkeni alır ve dizede alt dize bağımsız değişkeninin olup olmadığını kontrol eder. include() bir boole değeri döndürür. Bir dizede bir alt dize varsa, true, aksi halde false döndürür.
+let string12 = "30 Days Of JavaScript";
+
+console.log(string12.includes("Days")); //* true
+console.log(string12.includes("days")); //* false - it is case sensitive!
+console.log(string12.includes("Script")); //* true
+console.log(string12.includes("script")); //* false
+console.log(string12.includes("java")); //* false
+console.log(string12.includes("Java")); //* true
+
+//^^ replace() : parametre olarak eski alt dizeyi ve yeni bir alt dizeyi alır.
+//^^ string.replace(oldsubstring, newsubstring)
+
+let string13 = "30 Days Of JavaScript";
+console.log(string13.replace("JavaScript", "Python")); //* 30 Days Of Python
+
+let country1 = "Finland";
+console.log(country1.replace("Fin", "Noman")); //* Nomanland
+
+//^^ charAt() : Dizini alır ve o dizindeki değeri döndürür
+
+let string14 = "30 Days Of JavaScript";
+console.log(string14.charAt(0)); //* 3
+
+let lastIndex14 = string.length - 1;
+console.log(string14.charAt(lastIndex)); //* t
+
+//^ charCodeAt() : İndeksi alır ve o indeksteki değerin char kodunu (ASCII numarası) döndürür.
+
+let string15 = "30 Days Of JavaScript";
+console.log(string15.charCodeAt(3)); //* D ASCII number is 68
+
+let lastIndex15 = string15.length - 1;
+console.log(string15.charCodeAt(lastIndex15)); //* t ASCII is 116
+
+//^ indexOf() : Verilen değeri bulduğu ilk konumunu döndürür, yoksa -1 döndürür
+
+let string16 = "30 Days Of JavaScript";
+
+console.log(string16.indexOf("D")); //* 3
+console.log(string16.indexOf("Days")); //* 3
+console.log(string16.indexOf("days")); //* -1
+console.log(string16.indexOf("a")); //* 4
+console.log(string16.indexOf("JavaScript")); //* 11
+console.log(string16.indexOf("Script")); //*15
+console.log(string16.indexOf("script")); //* -1
+
+//^ lastIndexOf() : Verilen değeri string in sonundan başına doğru yönde bulduğu ilk konumunu döndürür, yoksa -1 döndürür
+
+//^ concat() : birçok alt diziyi alır ve onları birleştirir.
+
+let string17 = "30";
+console.log(string17.concat("Days", "Of", "JavaScript")); //* 30DaysOfJavaScript
+
+let country17 = "Fin";
+console.log(country17.concat("land")); //* Finland
+
+//^^ StartsWith() : stringin verilen değerle başlayıp başlamadığını kontrol eder. Bir boole (doğru veya yanlış) döndürür.
+
+let string18 = "Love is the best to in this world";
+
+console.log(string18.startsWith("Love")); //* true
+console.log(string18.startsWith("love")); //* false
+console.log(string18.startsWith("world")); //* false
+
+//^^ endWith() : stringin verilen değerle bitip bitmediğini kontrol eder. Bir boole (doğru veya yanlış) döndürür.
+
+let string19 = "Love is the most powerful feeling in the world";
+
+console.log(string19.endsWith("world")); //* true
+console.log(string19.endsWith("love")); //* false
+console.log(string19.endsWith("in the world")); //* true
+
+//^ search() : bağımsız değişken olarak bir string alır ve ilk eşleşmenin dizinini döndürür. bulamazsa -1 döndürür..
+
+let string20 =
+  "I love JavaScript. If you do not love JavaScript what else can you love.";
+console.log(string20.search("love")); //* 2
+console.log(string20.search("javascript")); //* -1 ... it is case sensitive
+console.log(string20.search("JavaScript")); //* 7
+
+//^ repeat() : stringi belirtilen sayıda tekrarlar.
+
+let string21 = "Love is the best thing in this world";
+console.log(string21.repeat(10)); //*
