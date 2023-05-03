@@ -17,3 +17,9 @@ console.log(challenge);
 //^^ console.log () kullanarak dizenin uzunluğunu tarayıcı konsoluna yazdırın
 
 console.log(challenge.length);
+
+//? Exercise 4:
+//^^ Change all the string characters to capital letters using toUpperCase() method
+//^^ toUpperCase () yöntemini kullanarak tüm dize karakterlerini büyük harfe dönüştürün
+
+console.log(challenge.toUpperCase());
