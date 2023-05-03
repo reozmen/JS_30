@@ -73,3 +73,16 @@ console.log(companies.split(",")); //*["Facebook", " Google", " Microsoft", " Ap
 //^^ replace () yöntemini kullanarak 30 Days Of JavaScript'i 30 Days Of Python olarak değiştirin.
 
 console.log(challenge.replace("JavaScript", "Python")); //*30 Days Of Python
+
+//? Exercise 13:
+//^^ What is character at index 15 in '30 Days Of JavaScript' string? Use charAt() method.
+//^^ '30 Days Of JavaScript' dizesindeki 15. dizindeki karakter nedir? charAt () yöntemini kullanın.
+
+console.log(challenge.charAt(15)); //*S
+
+//? Exercise 14:
+//^^ What is the character code of J in '30 Days Of JavaScript' string using charCodeAt()
+//^^ charCodeAt () kullanarak '30 Days Of JavaScript' dizesindeki J karakterinin karakter kodu nedir
+
+console.log(challenge.indexOf("J")); //*11
+console.log(challenge.charCodeAt(11)); //*74
