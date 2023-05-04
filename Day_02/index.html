@@ -7,11 +7,22 @@
     <title>Document</title>
   </head>
   <body>
+    <p id="sayi">...</p>
+    <button>SAYI ÜRET</button>
     <!-- <script src="./data_types.js"></script> -->
     <!-- <script src="./numbersAndMathObject.js"></script> -->
     <!-- <script src="./strings.js"></script> -->
     <!-- <script src="./controlOfDataTypes.js"></script> -->
     <!-- <script src="./changeDataType.js"></script> -->
     <script src="./Exercises.js"></script>
+
+    <script>
+      let button = document.querySelector("button");
+
+      button.addEventListener("click", function () {
+        sayi = Math.ceil(Math.random() * 100);
+        document.getElementById("sayi").innerText = sayi;
+      });
+    </script>
   </body>
 </html>
