@@ -207,3 +207,25 @@ console.log(num33 <= num34); //* true
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/
 //^^ Logical Operators
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/
+
+//? &&
+//? x && y ---- x ve y değerlerinin her ikisi de true ise true döner
+
+let num35 = 6;
+let num36 = 6;
+console.log(num35 == num36 && num35 === num36); //* true
+
+//? ||
+//? x || y ---- x veya y değerlerinden biri true ise true döner
+
+let num37 = 6;
+let num38 = "6";
+console.log(num37 == num38 || num37 === num38); //* true
+
+//? !
+//? !x ---- not operatörü -- x değeri false ise true döner, true ise false döner
+
+let num39 = 6;
+let num40 = 6;
+
+console.log(!(num39 == num40 && num39 === num40)); //* false
