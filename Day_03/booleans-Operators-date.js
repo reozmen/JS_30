@@ -236,3 +236,13 @@ console.log(!0); //* true
 console.log(!1); //* false
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/
+//^^ Trenary Operators
+
+//? condition ? (runs if true) : (runs if false)
+
+let num41 = 6;
+let num42 = 6;
+
+num41 == num42 && num41 === num42
+  ? console.log("num41 and num42 are equal")
+  : console.log("num41 and num42 are not equal");
