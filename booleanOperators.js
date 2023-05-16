@@ -230,4 +230,6 @@ let num40 = 6;
 
 console.log(!(num39 == num40 && num39 === num40)); //* false
 
+console.log(!true); //* false
+
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/
