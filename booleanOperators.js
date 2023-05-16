@@ -233,5 +233,6 @@ console.log(!(num39 == num40 && num39 === num40)); //* false
 console.log(!true); //* false
 console.log(!false); //* true
 console.log(!0); //* true
+console.log(!1); //* false
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/
