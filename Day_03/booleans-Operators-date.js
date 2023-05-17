@@ -262,8 +262,8 @@ num41 == num42 && num41 === num42
 
 //?? accept() yöntemi, bir Tamam ve bir İptal düğmesinin yanı sıra belirtilen bir mesaj içeren bir iletişim kutusu görüntüler. Bir kullanıcıdan bir şeyi yürütmek için izin istemek için genellikle bir onay kutusu kullanılır. Pencere accept(), bir diziyi bağımsız değişken olarak alır. Tamam'a tıklamak gerçek değeri, İptal düğmesine tıklamak ise yanlış değeri verir.
 
-const agree = confirm("Are you sure you like to delete? ");
-console.log(agree); // result will be true or false based on what you click on the dialog box
+// const agree = confirm("Are you sure you like to delete? ");
+// console.log(agree); // result will be true or false based on what you click on the dialog box
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/
 //^^ DATE OBJECTS
@@ -272,4 +272,7 @@ console.log(agree); // result will be true or false based on what you click on t
 //? new Date() yöntemi, geçerli tarihi ve saati içeren bir Date nesnesi oluşturur. Yerleşik bir yöntemdir ve hiçbir argüman almaz.
 
 const now = new Date();
-console.log(now); //* şu an ki tarihi ve saati verir
+console.log(now); //* Sat Jan 04 2020 00:56:41 GMT+0200 (Eastern European Standard Time)
+
+//^ Tam yıl almak
+console.log(now.getFullYear()); //* 2023
