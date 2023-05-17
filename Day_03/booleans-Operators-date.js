@@ -276,3 +276,18 @@ console.log(now); //* Sat Jan 04 2020 00:56:41 GMT+0200 (Eastern European Standa
 
 //^ Tam yıl almak
 console.log(now.getFullYear()); //* 2023
+
+//^ Ay almak
+console.log(now.getMonth()); //* 0-11 arası ay değerleri döner
+
+//^ Gün almak
+console.log(now.getDate()); //* 1-31 arası gün değerleri döner
+
+//^ Saat almak
+console.log(now.getHours()); //* 0-23 arası saat değerleri döner
+
+//^ Dakika almak
+console.log(now.getMinutes()); //* 0-59 arası dakika değerleri döner
+
+//^ Saniye almak
+console.log(now.getSeconds()); //* 0-59 arası saniye değerleri döner
