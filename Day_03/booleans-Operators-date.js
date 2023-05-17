@@ -297,3 +297,6 @@ console.log(now.getMilliseconds()); //* 0-999 arası milisaniye değerleri döne
 
 //^ Tarihi almak
 console.log(now.getTime()); //* 1578101801000 milisaniye değeri döner (1 Ocak 1970'den bu yana geçen milisaniye değeri)
+
+//^ Tarihi ayarlama
+console.log(now.setFullYear(2023)); //* 1578101801000 milisaniye değeri döner (1 Ocak 1970'den bu yana geçen milisaniye değeri)
