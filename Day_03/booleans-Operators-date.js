@@ -246,3 +246,6 @@ let num42 = 6;
 num41 == num42 && num41 === num42
   ? console.log("num41 and num42 are equal")
   : console.log("num41 and num42 are not equal");
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/
+//^^ operatörlerin önceliği (precedence) incelenmelidir
