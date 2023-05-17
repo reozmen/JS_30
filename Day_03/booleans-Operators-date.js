@@ -249,3 +249,18 @@ num41 == num42 && num41 === num42
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/
 //^^ operatörlerin önceliği (precedence) incelenmelidir
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/
+//^^ Window Methods
+//?? alert() yöntemi, belirtilen bir mesaj ve bir OK düğmesi içeren bir uyarı kutusu görüntüler. Yerleşik bir yöntemdir ve argüman alır.
+
+// alert("Merhaba");
+
+//?? prompt() yöntemi, kullanıcıdan bir girdi almak için bir iletişim kutusu görüntüler. Yerleşik bir yöntemdir ve iki argüman alır.
+
+// prompt("Adınızı giriniz", "John Doe");
+
+//?? accept() yöntemi, bir Tamam ve bir İptal düğmesinin yanı sıra belirtilen bir mesaj içeren bir iletişim kutusu görüntüler. Bir kullanıcıdan bir şeyi yürütmek için izin istemek için genellikle bir onay kutusu kullanılır. Pencere accept(), bir diziyi bağımsız değişken olarak alır. Tamam'a tıklamak gerçek değeri, İptal düğmesine tıklamak ise yanlış değeri verir.
+
+const agree = confirm("Are you sure you like to delete? ");
+console.log(agree); // result will be true or false based on what you click on the dialog box
