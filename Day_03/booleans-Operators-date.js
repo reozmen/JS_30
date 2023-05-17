@@ -264,3 +264,27 @@ num41 == num42 && num41 === num42
 
 const agree = confirm("Are you sure you like to delete? ");
 console.log(agree); // result will be true or false based on what you click on the dialog box
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/
+//^^ DATE OBJECTS
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!/
+
+//? new Date() yöntemi, geçerli tarihi ve saati içeren bir Date nesnesi oluşturur. Yerleşik bir yöntemdir ve hiçbir argüman almaz.
+
+const now = new Date();
+console.log(now); //* şu an ki tarihi ve saati verir
+
+//? new Date(year, month, day, hours, minutes, seconds, milliseconds) yöntemi, belirtilen tarihi ve saati içeren bir Date nesnesi oluşturur. Yerleşik bir yöntemdir ve yedi argüman alır.
+
+const birthday = new Date(1991, 6, 10, 12, 0, 0, 0);
+console.log(birthday); //* 1991-07-10T09:00:00.000Z
+
+//? new Date(milliseconds) yöntemi, 1 Ocak 1970 00:00:00 UTC'den geçen milisaniye sayısını içeren bir Date nesnesi oluşturur. Yerleşik bir yöntemdir ve bir argüman alır.
+
+const birthday1 = new Date(627318000000);
+console.log(birthday1); //* 1991-07-10T09:00:00.000Z
+
+//? new Date(dateString) yöntemi, geçerli tarihi ve saati içeren bir Date nesnesi oluşturur. Yerleşik bir yöntemdir ve bir argüman alır.
+
+const birthday2 = new Date("July 10 1991 12:00:00");
+console.log(birthday2); //* 1991-07-10T09:00:00.000Z
