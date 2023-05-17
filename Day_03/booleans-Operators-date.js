@@ -291,3 +291,9 @@ console.log(now.getMinutes()); //* 0-59 arası dakika değerleri döner
 
 //^ Saniye almak
 console.log(now.getSeconds()); //* 0-59 arası saniye değerleri döner
+
+//^ Milisaniye almak
+console.log(now.getMilliseconds()); //* 0-999 arası milisaniye değerleri döner
+
+//^ Tarihi almak
+console.log(now.getTime()); //* 1578101801000 milisaniye değeri döner (1 Ocak 1970'den bu yana geçen milisaniye değeri)
