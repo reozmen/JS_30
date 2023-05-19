@@ -19,9 +19,21 @@ console.log(
   "=> tyypeof firstName : ",
   typeof firstName
 );
-console.log(lastName, "=> tyypeof lastName : ", typeof lastName);
-console.log(country, "=> tyypeof country : ", typeof country);
-console.log(city, "=> tyypeof city : ", typeof city);
-console.log(age, "=> tyypeof age : ", typeof age);
-console.log(isMarried, "=> tyypeof isMarried : ", typeof isMarried);
-console.log(year, "=> tyypeof year : ", typeof year);
+console.log("lastName : ", lastName, "=> tyypeof lastName : ", typeof lastName);
+console.log("country : ", country, "=> tyypeof country : ", typeof country);
+console.log("city : ", city, "=> tyypeof city : ", typeof city);
+console.log("age : ", age, "=> tyypeof age : ", typeof age);
+console.log(
+  "isMarried : ",
+  isMarried,
+  "=> tyypeof isMarried : ",
+  typeof isMarried
+);
+console.log("year : ", year, "=> tyypeof year : ", typeof year);
+
+//* 2. Check if type of '10' is equal to 10
+
+//* 2. '10' un tipinin 10'a eşit olup olmadığını kontrol edin
+
+console.log("'10' == 10 : ", "10" == 10);
+console.log("'10' === 10 : ", "10" === 10);
