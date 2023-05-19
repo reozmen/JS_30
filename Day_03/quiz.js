@@ -44,3 +44,23 @@ console.log("'10' === 10 : ", "10" === 10);
 
 console.log("parseInt('9.8') == 10 : ", parseInt("9.8") == 10);
 console.log("parseInt('9.8') === 10 : ", parseInt("9.8") === 10);
+
+//* 4. Boolean value is either true or false.
+
+//* 4. Boolean değeri true veya false'dur.
+
+//* 4.1 Write three JavaScript statements which provide truthy value.
+
+//* 4.1 Doğru değeri sağlayan üç JavaScript ifadesi yazın.
+
+//* 4.2 Write three JavaScript statement which provide falsy value.
+
+//* 4.2 Doğru olmayan değeri sağlayan üç JavaScript ifadesi yazın.
+
+console.log("true : ", true);
+console.log("1 == 1 : ", 1 == 1);
+console.log("1 === 1 : ", 1 === 1);
+
+console.log("false : ", false);
+console.log("1 == 2 : ", 1 == 2);
+console.log("1 === 2 : ", 1 === 2);
