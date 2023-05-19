@@ -120,3 +120,25 @@ console.log(
   "There is no 'on' in both dragon and python : ",
   "dragon".includes("on") && "python".includes("on")
 );
+
+//* 7.Use the Date object to do the following activities
+
+//* What is the year today?
+//* What is the month today as a number?
+//* What is the date today?
+//* What is the day today as a number?
+//* What is the hours now?
+//* What is the minutes now?
+//* Find out the numbers of seconds elapsed from January 1, 1970 to now.
+
+let date = new Date();
+console.log("date : ", date);
+console.log("year : ", date.getFullYear());
+console.log("month : ", date.getMonth());
+console.log("date : ", date.getDate());
+console.log("day : ", date.getDay());
+console.log("hours : ", date.getHours());
+console.log("minutes : ", date.getMinutes());
+console.log("seconds : ", date.getSeconds());
+console.log("milliseconds : ", date.getMilliseconds());
+console.log("time : ", date.getTime());
