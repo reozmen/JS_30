@@ -37,3 +37,10 @@ console.log("year : ", year, "=> tyypeof year : ", typeof year);
 
 console.log("'10' == 10 : ", "10" == 10);
 console.log("'10' === 10 : ", "10" === 10);
+
+//* 3. Check if parseInt('9.8') is equal to 10
+
+//* 3. parseInt ('9.8') 10'a eşit mi kontrol edin
+
+console.log("parseInt('9.8') == 10 : ", parseInt("9.8") == 10);
+console.log("parseInt('9.8') === 10 : ", parseInt("9.8") === 10);
